@@ -9,3 +9,4 @@ pip install selenium
 pip install bs4
 安装完成后，运行通用版：python common.py
 运行自用版，点击moviedownloader.exe即可
+
