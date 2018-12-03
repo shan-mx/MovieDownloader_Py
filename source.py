@@ -71,6 +71,7 @@ if __name__ == "__main__":
     urls = get_movie_ftp(input(":->"))
     if urls == None:
         print("暂时无法找到" + '"' + sys.argv[2] + '"的资源！ ')
+        time.sleep(4)
         exit(0)
 
     for each in urls:

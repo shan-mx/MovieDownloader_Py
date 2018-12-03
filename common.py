@@ -68,10 +68,12 @@ def get_movie_ftp(target_name):
 
 if __name__ == "__main__":
     print("输入电影关键字:")
-    urls = get_movie_ftp(input(":->"))
+    movie_name = input(":->")
     print("查询中，请稍候...")
+    urls = get_movie_ftp(movie_name)
     if urls == None:
         print("暂时无法找到" + '"' + sys.argv[2] + '"的资源！ ')
+        time.sleep(4)
         exit(0)
 
     print("复制以下链接至迅雷（或其他bt下载工具）:")
