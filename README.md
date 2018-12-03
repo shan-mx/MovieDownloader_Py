@@ -7,5 +7,6 @@
 - 使用前需要先安装python3，打开init.bat文件完成依赖库安装：
 - 安装完成后，运行common.py；
 ### 程序文件
-- 运行自用版，点击moviedownloader.exe即可；
+- 运行自用版，点击moviedownloader.exe即可；（运行前，请检查迅雷是否在这个路径：C:\Program Files (x86)\Thunder Network\Thunder\Program\Thunder.exe）
+- 运行自用版，点击moviedownloader_common.bat即可；
 
